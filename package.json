@@ -1,0 +1,22 @@
+{
+  "name": "ncss-stream-update",
+  "version": "1.0.0",
+  "description": "Stream Based Updater with New Data Structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "csv-parse": "^4.3.1",
+    "esm": "^3.2.0",
+    "mongoose": "^5.4.8",
+    "node-lambda": "^0.13.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0"
+  }
+}
