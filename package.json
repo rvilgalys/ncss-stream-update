@@ -4,13 +4,15 @@
   "description": "Stream Based Updater with New Data Structure",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "dateRange": "node -r dotenv/config runDateRange.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
     "csv-parse": "^4.3.1",
+    "dotenv": "^6.2.0",
     "esm": "^3.2.0",
     "mongoose": "^5.4.8",
     "node-lambda": "^0.13.0",
